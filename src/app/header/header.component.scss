@@ -13,3 +13,22 @@ header {
 .banner h1 {
   font-size: 90px;
 }
+
+.toolbar {
+  background-color: #2980b9;
+  color: white;
+  font-size: 1.5em;
+  justify-content: space-around;
+}
+
+.menuitem {
+  padding: 50px 0px;
+}
+
+.menuitem a {
+  text-decoration: none;
+}
+
+.menuitem a:visited {
+  color: white;
+}

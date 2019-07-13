@@ -1,0 +1,28 @@
+.content-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.links {
+  background: white;
+}
+
+.linkbox {
+  display: block;
+  max-width: 1000px;
+  border-style: groove;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+.linkbox:hover {
+  cursor: pointer;
+}
+
+.linktitle {
+  font-size: 30px;
+  font-weight: bold;
+}
