@@ -1,16 +1,32 @@
+.portfolioSection {
+  background-color: rgb(218, 218, 218);
+}
+
+h1 {
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+h2, p {
+  padding-left: 1em;
+}
+
 .photos {
   display: flex;
   flex-direction: row;
   flex-flow: row nowrap;
   align-items: center;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 .photo {
   display:flex;
+  justify-content: center;
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%
+  max-width: 98%;
+  max-height: 98%;
 }
