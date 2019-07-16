@@ -1,8 +1,17 @@
 .intro {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.about {
-  background: black;
+.description {
+  margin: 1em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.description2 {
+  margin: 1em;
+  font-size: 1.5em;
+  text-align: center;
 }

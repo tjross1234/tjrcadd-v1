@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LobbyComponent } from './lobby/lobby.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ResourcesComponent } from './resources/resources.component';
     HeaderComponent,
     FooterComponent,
     LobbyComponent,
-    ResourcesComponent
+    ResourcesComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
